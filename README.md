@@ -1,25 +1,25 @@
-# pytorch-xpu-setup
+# pytorch-xpu-skill
 
 An agent skill for setting up and using PyTorch on Intel GPUs (XPU).
 
 ## Install
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/pytorch-xpu-setup
+npx skills add https://github.com/abh80/torch-xpu-skill --skill pytorch-xpu-skill
 ```
 
 Or install for a specific agent:
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/pytorch-xpu-setup -a claude-code
+npx skills add https://github.com/abh80/torch-xpu-skill --skill pytorch-xpu-skill -a claude-code
 ```
 
 ## What's included
 
-**`pytorch-xpu-setup`** — Covers:
+**`pytorch-xpu-skill`** — Covers:
 - Installing PyTorch with XPU support (pip wheels, no conda packages)
 - Supported hardware (Arc A/B-Series, Core Ultra, Data Center GPU Max)
-- Driver & prerequisite setup for Windows and Linux
+- Driver & prerequisite skill for Windows and Linux
 - `torch.xpu` API reference
 - CUDA → XPU migration (it's mostly find-and-replace)
 - AMP, torch.compile, profiling, multi-device patterns
@@ -28,7 +28,7 @@ npx skills add YOUR_GITHUB_USERNAME/pytorch-xpu-setup -a claude-code
 ## Skill structure
 
 ```
-skills/pytorch-xpu-setup/
+skills/pytorch-xpu-skill/
 ├── SKILL.md                        # Main instructions
 └── references/
     └── code-patterns.md            # Detailed code examples
