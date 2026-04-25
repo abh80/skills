@@ -5,13 +5,13 @@ An agent skill for setting up and using PyTorch on Intel GPUs (XPU).
 ## Install
 
 ```bash
-npx skills add https://github.com/abh80/torch-xpu-skill --skill pytorch-xpu-skill
+npx skills add https://github.com/abh80/skills --skill pytorch-xpu-skill
 ```
 
 Or install for a specific agent:
 
 ```bash
-npx skills add https://github.com/abh80/torch-xpu-skill --skill pytorch-xpu-skill -a claude-code
+npx skills add https://github.com/abh80/skills --skill pytorch-xpu-skill -a claude-code
 ```
 
 ## What's included
